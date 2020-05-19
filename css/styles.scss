@@ -265,6 +265,9 @@ header.masthead {
         padding-top: 6rem;
         padding-bottom: 6rem;
         text-align: center;
+        width: 1200px;
+        display: flex;
+        margin: 10px auto;
 
         h2 {
             font-size: 3rem;
@@ -298,6 +301,12 @@ header.masthead {
         &:hover {
             opacity: 0.3;
         }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .products-modal .modal-content {
+        width: 100%;
     }
 }
 

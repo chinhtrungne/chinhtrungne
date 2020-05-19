@@ -242,6 +242,11 @@ header.masthead .masthead-heading {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
 }
 
 .products-modal .modal-content h2 {
@@ -275,6 +280,12 @@ header.masthead .masthead-heading {
 
 .products-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+@media only screen and (max-width: 767px) {
+  .products-modal .modal-content {
+    width: 100%;
+  }
 }
 
 /* products end */
