@@ -203,6 +203,31 @@ header.masthead {
 
 /* header end */
 
+
+// overview start
+
+
+#overview {
+    .overview-picture {
+        a {
+            svg {
+                transition: 0.3s;
+            }
+
+            &:hover {
+                svg {
+                    transform: scale(1.1)
+                }
+            }
+
+        }
+    }
+}
+
+
+
+// overview end
+
 /* products start */
 
 #products .products-item {
@@ -232,7 +257,6 @@ header.masthead {
                 color: white;
             }
         }
-
 
         &:hover .products-hover {
             opacity: 1;

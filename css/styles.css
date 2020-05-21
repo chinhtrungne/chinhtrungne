@@ -176,6 +176,16 @@ header.masthead .masthead-heading {
 }
 
 /* header end */
+#overview .overview-picture a svg {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#overview .overview-picture a:hover svg {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 /* products start */
 #products .products-item {
   max-width: 25rem;
