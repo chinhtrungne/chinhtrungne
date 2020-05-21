@@ -30,8 +30,7 @@ p {
         font-size: 1rem;
         font-weight: 400;
         font-style: italic;
-
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -160,7 +159,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/header-bg.jpg");
+    background-image: url("../assets/img/test.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -446,6 +445,7 @@ header.masthead {
 .grid-customers {
     .list-customers {
         height: 150px;
+        width: 100%;
         text-align: center;
         vertical-align: middle;
         background-color: #212529;
