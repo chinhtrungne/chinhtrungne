@@ -2948,7 +2948,7 @@ fieldset:disabled a.btn {
 
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
 }
 
 .btn-secondary {
@@ -3103,14 +3103,14 @@ fieldset:disabled a.btn {
 
 .btn-warning:hover {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
-  border-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
+  border-color: rgba(48, 136, 67, 0.3);
 }
 
 .btn-warning:focus, .btn-warning.focus {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
-  border-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
+  border-color: rgba(48, 136, 67, 0.3);
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
@@ -3123,13 +3123,13 @@ fieldset:disabled a.btn {
 
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
   border-color: #f3bd01;
 }
 
 .show > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
   border-color: #f3bd01;
 }
 
@@ -5835,12 +5835,12 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
 }
 
 a.badge-primary:focus {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -5931,12 +5931,12 @@ a.badge-info.focus {
 
 a.badge-warning:hover {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
 }
 
 a.badge-warning:focus {
   color: #fff;
-  background-color: rgba(48, 136, 67, 0.4);
+  background-color: rgba(48, 136, 67, 0.3);
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -7574,11 +7574,11 @@ a.close.disabled {
 }
 
 a.bg-primary:hover, a.bg-primary:focus {
-  background-color: rgba(48, 136, 67, 0.4) !important;
+  background-color: rgba(48, 136, 67, 0.3) !important;
 }
 
 button.bg-primary:hover, button.bg-primary:focus {
-  background-color: rgba(48, 136, 67, 0.4) !important;
+  background-color: rgba(48, 136, 67, 0.3) !important;
 }
 
 .bg-secondary {
@@ -7622,11 +7622,11 @@ button.bg-info:hover, button.bg-info:focus {
 }
 
 a.bg-warning:hover, a.bg-warning:focus {
-  background-color: rgba(48, 136, 67, 0.4) !important;
+  background-color: rgba(48, 136, 67, 0.3) !important;
 }
 
 button.bg-warning:hover, button.bg-warning:focus {
-  background-color: rgba(48, 136, 67, 0.4) !important;
+  background-color: rgba(48, 136, 67, 0.3) !important;
 }
 
 .bg-danger {

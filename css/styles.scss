@@ -1,6 +1,6 @@
 // define
 $mainColor: #308843;
-$mainColorHover: rgba(48, 136, 67, 0.4);
+$mainColorHover: rgba(48, 136, 67, 0.3);
 $buttonHover: #1b5028;
 
 
@@ -227,13 +227,12 @@ header.masthead {
             transition: opacity ease-in-out 0.25s;
             border-radius: 10px 10px 0 0 !important;
 
-
             .products-hover-content {
                 font-size: 1.25rem;
                 color: white;
             }
-
         }
+
 
         &:hover .products-hover {
             opacity: 1;
@@ -303,6 +302,7 @@ header.masthead {
 
         &:hover {
             opacity: 0.3;
+
         }
     }
 }
