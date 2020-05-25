@@ -623,6 +623,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+#contact {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 /* contact end */
 .footer {
   text-align: center;

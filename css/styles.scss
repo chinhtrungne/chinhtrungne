@@ -283,6 +283,7 @@ header.masthead {
 
 .products-modal {
     padding: 0 !important;
+
     .modal-dialog {
         margin: 5px;
         max-width: 100vw;
@@ -477,6 +478,7 @@ header.masthead {
         color: #fff;
         font-size: 30px;
         padding: 0;
+
         p {
             line-height: 150px;
             background: #00000073;
@@ -515,14 +517,15 @@ header.masthead {
     }
 }
 
-@media only screen and (max-width:480px){
-    .grid-customers{
-        .list-customers{
+@media only screen and (max-width:480px) {
+    .grid-customers {
+        .list-customers {
             width: 50%;
             font-size: 22px;
         }
     }
 }
+
 @media (min-width: 768px) {
     .timeline {
         &:before {
@@ -682,6 +685,11 @@ section#contact {
             color: #ced4da;
         }
     }
+}
+
+#contact {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* contact end */
