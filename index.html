@@ -380,28 +380,15 @@
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
                 <h3 class="section-subheading text-white">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
-            <form class="col-6 mx-auto" id="contactForm" action="https://submit-form.com/RQAvlRSZXM4QdsX-pmgId" target="_self">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1" class="text-white">Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Your name">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1" class="text-white">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="form-group mb-0">
-                    <label for="exampleFormControlInput1" class="text-white">Phone number</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Phone number">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+            <form class="col-6 mx-auto" action="https://submit-form.com/RQAvlRSZXM4QdsX-pmgId" target="_self">
+                <!-- All elements must have a name attribute -->
+                <input type="text" name="subject" placeholder="Your Name" class="w-100 form-control" required> <br>
+                <input type="email" name="email" placeholder="Your Email" class="w-100 form-control" required><br>
+                <input type="tel" name="tel" placeholder="Your Number" class="w-100 form-control" required><br>
 
-                <button class="btn-success btn float-right" type="submit">Send</button>
+                <textarea name="message" placeholder="Your Message" class="w-100 form-control" rows="3" required></textarea> <br>
+                <!-- A button of type submit -->
+                <button type="submit" class="btn btn-success float-right">Submit</button> <br>
             </form>
         </div>
     </section>
