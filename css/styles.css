@@ -420,64 +420,33 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-.grid-customers .list-customers {
-  height: 150px;
+.customers-name {
+  -webkit-box-shadow: 5px 5px 7px #aaa;
+          box-shadow: 5px 5px 7px #aaa;
+  border-radius: 10px;
+}
+
+.customers-name .customers-item {
+  border: 1px solid #5555550f;
+  border-collapse: collapse;
   text-align: center;
-  vertical-align: middle;
-  background-color: #212529;
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 30px;
-  padding: 0;
+  padding: 1rem;
 }
 
-.grid-customers .list-customers p {
-  line-height: 150px;
-  background: #00000073;
-  margin: 0;
+.customers-name .top-left {
+  border-radius: 10px 0 0 0;
 }
 
-.grid-customers .l1 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology/?sig=1");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
+.customers-name .top-right {
+  border-radius: 0 10px 0 0;
 }
 
-.grid-customers .l2 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology?sig=12");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
+.customers-name .bottom-left {
+  border-radius: 0 0 0 10px;
 }
 
-.grid-customers .l3 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology?sig=3");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.grid-customers .l4 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology?sig=4");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.grid-customers .l5 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology?sig=5");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.grid-customers .l6 {
-  background-image: url("https://source.unsplash.com/1000x500/?technology?sig=6");
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-@media only screen and (max-width: 480px) {
-  .grid-customers .list-customers {
-    width: 50%;
-    font-size: 22px;
-  }
+.customers-name .bottom-right {
+  border-radius: 0 0 10px 0;
 }
 
 @media (min-width: 768px) {
