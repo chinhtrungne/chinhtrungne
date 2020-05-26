@@ -469,18 +469,32 @@ header.masthead {
 }
 
 .customers-name {
-    box-shadow: 5px 5px 7px #aaa;
+    box-shadow: 7px 7px 15px #aaa;
     border-radius: 10px;
 
     .customers-item {
         border: 1px solid #5555550f;
         border-collapse: collapse;
         text-align: center;
-        padding: 1rem;
+        padding: 1.5rem 2rem;
+
+        a {
+            img {
+                transition: 0.3s !important;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.1) !important;
+                }
+            }
+
+        }
     }
 
     .top-left {
         border-radius: 10px 0 0 0;
+
     }
 
     .top-right {
@@ -496,7 +510,11 @@ header.masthead {
     }
 }
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width:480px) {
+    .customers-name {
+        margin: 0 !important;
+    }
+}
 
 @media (min-width: 768px) {
     .timeline {
