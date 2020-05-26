@@ -11,6 +11,11 @@ body {
     overflow-x: hidden;
     outline: none !important;
     font-family: 'Open Sans', sans-serif !important;
+
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 p {
@@ -216,7 +221,7 @@ header.masthead {
 
             &:hover {
                 svg {
-                    transform: scale(1.1)
+                    transform: scale(1.1);
                 }
             }
 
@@ -229,6 +234,9 @@ header.masthead {
 // overview end
 
 /* products start */
+#products {
+    padding: 5rem 0 !important;
+}
 
 #products .products-item {
     max-width: 25rem;
@@ -468,6 +476,10 @@ header.masthead {
 
 }
 
+#customers {
+    padding: 12rem 0;
+}
+
 .customers-name {
     box-shadow: 7px 7px 15px #aaa;
     border-radius: 10px;
@@ -476,7 +488,7 @@ header.masthead {
         border: 1px solid #5555550f;
         border-collapse: collapse;
         text-align: center;
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 2.5rem;
 
         a {
             img {

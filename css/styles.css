@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
   outline: none !important;
   font-family: 'Open Sans', sans-serif !important;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 p {
@@ -186,6 +190,10 @@ header.masthead .masthead-heading {
 }
 
 /* products start */
+#products {
+  padding: 5rem 0 !important;
+}
+
 #products .products-item {
   max-width: 25rem;
   margin-left: auto;
@@ -420,6 +428,10 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+#customers {
+  padding: 12rem 0;
+}
+
 .customers-name {
   -webkit-box-shadow: 7px 7px 15px #aaa;
           box-shadow: 7px 7px 15px #aaa;
@@ -430,7 +442,7 @@ header.masthead .masthead-heading {
   border: 1px solid #5555550f;
   border-collapse: collapse;
   text-align: center;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2.5rem;
 }
 
 .customers-name .customers-item a img {
