@@ -382,13 +382,20 @@
             </div>
             <form class="col-6 mx-auto" action="https://submit-form.com/RQAvlRSZXM4QdsX-pmgId" target="_self">
                 <!-- All elements must have a name attribute -->
-                <input type="text" name="subject" placeholder="Your Name" class="w-100 form-control" required> <br>
-                <input type="email" name="email" placeholder="Your Email" class="w-100 form-control" required><br>
-                <input type="tel" name="tel" placeholder="Your Number" class="w-100 form-control" required><br>
+                <label for="" class="text-white mb-0">Full Name</label>
+                <input type="text" name="subject" placeholder="Your Name" class="w-100 form-control" required> 
 
-                <textarea name="message" placeholder="Your Message" class="w-100 form-control" rows="3" required></textarea> <br>
+                <label for="" class="text-white mb-0 mt-2">Email</label>
+                <input type="email" name="email" placeholder="Your Email" class="w-100 form-control" required>
+
+                <label for="" class="text-white mb-0 mt-2">Phone Number</label>
+                <input type="tel" name="tel" placeholder="Your Number" class="w-100 form-control" required>
+
+                <label for="" class="text-white mb-0 mt-2">Message</label>
+                <textarea name="message" placeholder="Your Message" class="w-100 form-control" rows="5"
+                    required></textarea> <br>
                 <!-- A button of type submit -->
-                <button type="submit" class="btn btn-success float-right">Submit</button> <br>
+                <button type="submit" class="btn btn-success d-flex mx-auto">Send</button> <br>
             </form>
         </div>
     </section>
