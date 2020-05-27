@@ -485,7 +485,7 @@ header.masthead {
 }
 
 #customers {
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 .customers-name {
@@ -534,6 +534,10 @@ header.masthead {
 @media only screen and (max-width:480px) {
     .customers-name {
         margin: 0 !important;
+
+        .customers-item {
+            width: 50% !important;
+        }
     }
 }
 
@@ -643,6 +647,17 @@ header.masthead {
         margin-bottom: 0;
     }
 }
+
+@media only screen and(max-width:480px) {
+    .about-member {
+        img {
+            width: 8rem;
+            height: auto;
+        }
+    }
+}
+
+// about end 
 
 /* contact start */
 
