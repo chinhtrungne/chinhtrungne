@@ -22,6 +22,14 @@ p {
     line-height: 1.75;
 }
 
+a {
+    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
 .page-section {
     padding: 6rem 0;
 
@@ -477,7 +485,7 @@ header.masthead {
 }
 
 #customers {
-    padding: 12rem 0;
+    padding: 10rem 0;
 }
 
 .customers-name {
@@ -648,51 +656,29 @@ section#contact {
         color: #fff;
     }
 
-    form#contactForm {
-        .form-group {
-            margin-bottom: 1.5rem;
+}
 
-            input,
-            textarea {
-                padding: 1.25rem;
+#contact {
+    padding: 1rem !important;
+
+
+    .modal-dialog {
+        .modal-content {
+            border-radius: 10px;
+
+            .contact-img-header {
+                border-radius: 10px 10px 0 0;
             }
-
-            input.form-control {
-                height: auto;
-            }
-        }
-
-        .form-group-textarea {
-            height: 100%;
-
-            textarea {
-                height: 100%;
-                min-height: 10rem;
-            }
-        }
-
-        p.help-block {
-            margin: 0;
-        }
-
-        .form-control:focus {
-            border-color: $mainColor;
-            box-shadow: none;
-        }
-
-        ::-webkit-input-placeholder,
-        :-moz-placeholder,
-        ::-moz-placeholder,
-        :-ms-input-placeholder {
-            font-weight: 700;
-            color: #ced4da;
         }
     }
 }
 
-#contact {
-    padding-top: 200px;
-    padding-bottom: 200px;
+@media only screen and(max-width:480px) {
+    #contact {
+        .container {
+            padding: 0 !important;
+        }
+    }
 }
 
 /* contact end */

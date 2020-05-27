@@ -525,7 +525,7 @@ mark,
     max-width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0 !important;
-    
+
 }
 
 .img-thumbnail {
@@ -3037,59 +3037,56 @@ fieldset:disabled a.btn {
 }
 
 .btn-warning {
-    color: #fff;
-    background-color: $mainColor;
-    border-color: $mainColor;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
 
     &:hover {
-        color: #fff;
-        background-color: $mainColorHover;
-        border-color: $mainColorHover;
+        color: #212529;
+        background-color: #e0a800;
+        border-color: #d39e00;
     }
 
     &:focus,
     &.focus {
-        color: #fff;
-        background-color: $mainColorHover;
-        border-color: $mainColorHover;
-        box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+        color: #212529;
+        background-color: #e0a800;
+        border-color: #d39e00;
+        box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
     }
 
     &.disabled,
     &:disabled {
-        color: #fff;
-        background-color: $mainColor;
-        border-color: $mainColor;
+        color: #212529;
+        background-color: #ffc107;
+        border-color: #ffc107;
     }
 
     &:not(:disabled):not(.disabled) {
 
         &:active,
         &.active {
-            color: #fff;
-            background-color: $mainColorHover;
-            border-color: #f3bd01;
+            color: #212529;
+            background-color: #d39e00;
+            border-color: #c69500;
         }
     }
 }
 
 .show>.btn-warning.dropdown-toggle {
-    color: #fff;
-    background-color: $mainColorHover;
-    border-color: #f3bd01;
+    color: #212529;
+    background-color: #d39e00;
+    border-color: #c69500;
 }
 
 .btn-warning:not(:disabled):not(.disabled) {
 
     &:active:focus,
     &.active:focus {
-        box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+        box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
     }
 }
 
-.show>.btn-warning.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-}
 
 .btn-danger {
     color: #fff;
@@ -7016,7 +7013,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
     .modal-dialog {
-        max-width: 500px;
+        max-width: 600px;
         margin: 1.75rem auto;
     }
 

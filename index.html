@@ -13,6 +13,7 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/lunar.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 </head>
@@ -268,28 +269,28 @@
             </ul> -->
 
             <div class="row customers-name">
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item top-left">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item top-left">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item top-right">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item top-right">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item bottom-left">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item bottom-left">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 customers-item bottom-right">
+                <div class="col-lg-3 col-md-4 col-sm-4 customers-item bottom-right">
                     <a href="#!"><img src="assets/img/cocacola_logo.png" alt="" class="w-100"></a>
                 </div>
             </div>
@@ -377,13 +378,12 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="text-center">
+            <!-- <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
                 <h3 class="section-subheading text-white">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <form class="col-xl-6 col-lg-8 col-sm-12 mx-auto" action="https://submit-form.com/RQAvlRSZXM4QdsX-pmgId"
                 target="_self">
-                <!-- All elements must have a name attribute -->
                 <label for="" class="text-white mb-0">Full Name</label>
                 <input type="text" name="name" placeholder="Your Name" class="w-100 form-control" required>
 
@@ -397,9 +397,45 @@
                 <label for="" class="text-white mb-0 mt-2">Message</label>
                 <textarea name="message" placeholder="Your Message" class="w-100 form-control" rows="5" maxlength="3000"
                     required></textarea> <br>
-                <!-- A button of type submit -->
+
                 <button type="submit" class="btn btn-success d-flex mx-auto">Send</button> <br>
-            </form>
+            </form> -->
+
+            <div class="modal-dialog modal-dialog-centered " role="document">
+                <div class="modal-content">
+
+                    <div class="m-h-30 bg-img contact-img-header"
+                        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80')">
+
+                    </div>
+                    <div class="modal-body">
+                        <form class="px-sm-4 py-sm-4 p-3" action="https://submit-form.com/RQAvlRSZXM4QdsX-pmgId"
+                            target="_self">
+                            <h3>Contact Us</h3>
+
+                            <label for="" class="mb-1">Full Name</label>
+                            <input type="text" name="name" placeholder="Enter name" class="w-100 form-control" required>
+
+                            <label for="" class="mt-2 mb-1">Email</label>
+                            <input type="email" name="email" placeholder="Enter email" class="w-100 form-control"
+                                required>
+<!-- 
+                            <label for="" class="mt-2 mb-1">Phone Number</label>
+                            <input type="text" name="tel" pattern="(\+84|0)\d{9,10}" placeholder="Enter phone number"
+                                class="w-100 form-control" required> -->
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                            <label for="" class="mt-2 mb-1">Message</label>
+                            <textarea name="message" placeholder="Enter message" class="w-100 form-control" rows="3"
+                                maxlength="2000"></textarea> <br>
+
+                            <button type="submit" class="btn btn-warning btn-block">Send</button> <br>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 

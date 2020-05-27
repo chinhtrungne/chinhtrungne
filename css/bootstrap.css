@@ -3096,51 +3096,46 @@ fieldset:disabled a.btn {
 }
 
 .btn-warning {
-  color: #fff;
-  background-color: #308843;
-  border-color: #308843;
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 
 .btn-warning:hover {
-  color: #fff;
-  background-color: rgba(48, 136, 67, 0.3);
-  border-color: rgba(48, 136, 67, 0.3);
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
 }
 
 .btn-warning:focus, .btn-warning.focus {
-  color: #fff;
-  background-color: rgba(48, 136, 67, 0.3);
-  border-color: rgba(48, 136, 67, 0.3);
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
 .btn-warning.disabled, .btn-warning:disabled {
-  color: #fff;
-  background-color: #308843;
-  border-color: #308843;
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active {
-  color: #fff;
-  background-color: rgba(48, 136, 67, 0.3);
-  border-color: #f3bd01;
+  color: #212529;
+  background-color: #d39e00;
+  border-color: #c69500;
 }
 
 .show > .btn-warning.dropdown-toggle {
-  color: #fff;
-  background-color: rgba(48, 136, 67, 0.3);
-  border-color: #f3bd01;
+  color: #212529;
+  background-color: #d39e00;
+  border-color: #c69500;
 }
 
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-}
-
-.show > .btn-warning.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
 .btn-danger {
@@ -6917,7 +6912,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 600px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
