@@ -4,7 +4,6 @@ $mainColorHover: rgba(48, 136, 67, 0.3);
 $buttonHover: #1b5028;
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
@@ -24,9 +23,11 @@ p {
 
 a {
     text-decoration: none !important;
+    outline: none !important;
 
     &:hover {
         text-decoration: none !important;
+        outline: none !important;
     }
 }
 

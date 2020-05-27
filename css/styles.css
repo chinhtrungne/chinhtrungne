@@ -15,10 +15,12 @@ p {
 
 a {
   text-decoration: none !important;
+  outline: none !important;
 }
 
 a:hover {
   text-decoration: none !important;
+  outline: none !important;
 }
 
 .page-section {
