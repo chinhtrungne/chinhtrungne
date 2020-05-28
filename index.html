@@ -15,7 +15,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/lunar.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="css/sal.css">
 </head>
 
 <body id="page-top">
@@ -44,9 +44,9 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading animate__animated animate__bounce">Welcome To Company Solutions!</div>
-            <div class="masthead-heading text-uppercase animate__animated animate__bounce">It's Nice To Meet You</div>
+        <div class="container" data-sal="zoom-in" data-sal-delay="200" data-sal-easing="ease-out-back">
+            <div class="masthead-subheading">Welcome To Company Solutions!</div>
+            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3" href="#contact">Tell Me More</a>
         </div>
     </header>
@@ -54,7 +54,7 @@
 
     <!-- overview-->
     <section class="page-section" id="overview">
-        <div class="container">
+        <div class="container" data-sal="slide-down" data-sal-delay="100" data-sal-easing="ease-out-back">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">overview</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -65,7 +65,7 @@
                     metus. </p>
             </div>
 
-            <div class="row text-center">
+            <!-- <div class="row text-center">
                 <div class="col-md-4 overview-picture">
                     <a href="#!" class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -92,32 +92,42 @@
                         quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="d-flex justify-content-between text-white overview-card mt-4">
-                <div class="card mx-3 p-3 shadow">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/576ecf51ae5864d05375f03b44918f7f512f6f20/595fc/assets/img/cookie.png"
-                        alt="" class="w-50 mx-auto">
-                    <p class="mt-4">
-                        We use cookies to personalize content and ads to make our site easier for you to use. We do also
-                        share that information with third parties for advertising & analytics.
-                    </p>
+            <hr>
+            <div class="row mt-4 text-center text-white">
+                <div class="col-lg-4 col-md-4 col-sm-12 overview-card mt-1">
+                    <div class="card p-3 shadow">
+                        <img src="assets/img/cactus.svg" alt="" class="w-25 mx-auto">
+                        <h5 class="mt-3">automatically</h5>
+                        <p>
+                            We use cookies to personalize content and ads to make our site easier for you to use. We do
+                            also
+                            share that information with third parties for advertising & analytics.
+                        </p>
+                    </div>
                 </div>
-                <div class="card mx-3 p-3 shadow">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/576ecf51ae5864d05375f03b44918f7f512f6f20/595fc/assets/img/cookie.png"
-                        alt="" class="w-50 mx-auto">
-                    <p class="mt-4">
-                        We use cookies to personalize content and ads to make our site easier for you to use. We do also
-                        share that information with third parties for advertising & analytics.
-                    </p>
+                <div class="col-lg-4 col-md-4 col-sm-12 overview-card mt-1">
+                    <div class="card p-3 shadow">
+                        <img src="assets/img/flower.svg" alt="" class="w-25 mx-auto">
+                        <h5 class="mt-3">automatically</h5>
+                        <p>
+                            We use cookies to personalize content and ads to make our site easier for you to use. We do
+                            also
+                            share that information with third parties for advertising & analytics.
+                        </p>
+                    </div>
                 </div>
-                <div class="card mx-3 p-3 shadow">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/576ecf51ae5864d05375f03b44918f7f512f6f20/595fc/assets/img/cookie.png"
-                        alt="" class="w-50 mx-auto">
-                    <p class="mt-4">
-                        We use cookies to personalize content and ads to make our site easier for you to use. We do also
-                        share that information with third parties for advertising & analytics.
-                    </p>
+                <div class="col-lg-4 col-md-4 col-sm-12 overview-card mt-1">
+                    <div class="card p-3 shadow">
+                        <img src="assets/img/garden.svg" alt="" class="w-25 mx-auto">
+                        <h5 class="mt-3">automatically</h5>
+                        <p>
+                            We use cookies to personalize content and ads to make our site easier for you to use. We do
+                            also
+                            share that information with third parties for advertising & analytics.
+                        </p>
+                    </div>
                 </div>
             </div>
     </section>
@@ -125,7 +135,7 @@
 
     <!-- products-->
     <section class="page-section bg-light" id="products">
-        <div class="container">
+        <div class="container" data-sal="slide-up" data-sal-delay="50" data-sal-easing="ease-out-back">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">products</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -222,7 +232,7 @@
 
     <!-- customers-->
     <section class="page-section" id="customers">
-        <div class="container">
+        <div class="container" data-sal="slide-down" data-sal-delay="100" data-sal-easing="ease-out-back">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">customers</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -261,7 +271,7 @@
 
     <!-- about-->
     <section class="page-section bg-light" id="about">
-        <div class="container">
+        <div class="container" data-sal="slide-down" data-sal-delay="100" data-sal-easing="ease-out-back">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">about</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -269,7 +279,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="about-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/about/1.jpg" alt="" />
+                        <img class="mx-auto rounded-circle shadow" src="assets/img/about/1.jpg" alt="" />
                         <h4>Kay Garland</h4>
                         <p class="text-muted">Lead Designer</p>
 
@@ -280,7 +290,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="about-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/about/2.jpg" alt="" />
+                        <img class="mx-auto rounded-circle shadow" src="assets/img/about/2.jpg" alt="" />
                         <h4>Larry Parker</h4>
                         <p class="text-muted">Lead Marketer</p>
 
@@ -291,7 +301,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="about-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/about/3.jpg" alt="" />
+                        <img class="mx-auto rounded-circle shadow" src="assets/img/about/3.jpg" alt="" />
                         <h4>Diana Petersen</h4>
                         <p class="text-muted">Lead Developer</p>
 
@@ -337,7 +347,7 @@
 
     <!-- Contact-->
     <section class="page-section" id="contact">
-        <div class="container">
+        <div class="container" data-sal="zoom-out" data-sal-delay="200" data-sal-easing="ease-out-back">
 
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -382,7 +392,7 @@
 
     <!-- Footer-->
     <footer class="footer py-4">
-        <div class="container">
+        <div class="container" data-sal="slide-down" data-sal-delay="200" data-sal-easing="ease-out-back">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -395,7 +405,7 @@
                         Use</a></div>
             </div>
             <hr class="col-3">
-            <p class="text-center text-muted small">Copyright ©chinhtrung</p>
+            <p class="text-center text-muted small" >Copyright ©chinhtrung</p>
 
         </div>
     </footer>
@@ -595,9 +605,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/sal.js"></script>
+
+    <script>
+        sal({
+            once: false
+        });
+    </script>
 </body>
 
 </html>
