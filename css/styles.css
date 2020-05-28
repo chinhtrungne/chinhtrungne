@@ -199,9 +199,19 @@ header.masthead .masthead-heading {
           transform: scale(1.1);
 }
 
+#overview .overview-card div {
+  background-color: #28304e;
+}
+
 /* products start */
 #products {
   padding: 5rem 0 !important;
+}
+
+#products .products-item {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 10px;
 }
 
 #products .products-item {
@@ -443,8 +453,6 @@ header.masthead .masthead-heading {
 }
 
 .customers-name {
-  -webkit-box-shadow: 7px 7px 15px #aaa;
-          box-shadow: 7px 7px 15px #aaa;
   border-radius: 10px;
 }
 
