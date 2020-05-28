@@ -32,7 +32,7 @@ a {
 }
 
 .page-section {
-    padding: 6rem 0;
+    padding: 5rem 0 !important;
 
     h2.section-heading {
         font-size: 2.5rem;
@@ -250,7 +250,6 @@ header.masthead {
 
 /* products start */
 #products {
-    padding: 6rem 0 !important;
 
     .products-item {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -496,48 +495,50 @@ header.masthead {
 
 }
 
+
+
 #customers {
-    padding: 10rem 0;
-}
+    padding: 10rem auto !important;
 
-.customers-name {
-    border-radius: 10px;
+    .customers-name {
+        border-radius: 10px;
 
-    .customers-item {
-        border: 1px solid #5555550f;
-        border-collapse: collapse;
-        text-align: center;
-        padding: 1.5rem 2.5rem;
+        .customers-item {
+            border: 1px solid #5555550f;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 1.5rem 2.5rem;
 
-        a {
-            img {
-                transition: 0.3s !important;
-            }
-
-            &:hover {
+            a {
                 img {
-                    transform: scale(1.1) !important;
+                    transition: 0.3s !important;
                 }
+
+                &:hover {
+                    img {
+                        transform: scale(1.1) !important;
+                    }
+                }
+
             }
+        }
+
+        .top-left {
+            border-radius: 10px 0 0 0;
 
         }
-    }
 
-    .top-left {
-        border-radius: 10px 0 0 0;
+        .top-right {
+            border-radius: 0 10px 0 0;
+        }
 
-    }
+        .bottom-left {
+            border-radius: 0 0 0 10px;
+        }
 
-    .top-right {
-        border-radius: 0 10px 0 0;
-    }
-
-    .bottom-left {
-        border-radius: 0 0 0 10px;
-    }
-
-    .bottom-right {
-        border-radius: 0 0 10px 0;
+        .bottom-right {
+            border-radius: 0 0 10px 0;
+        }
     }
 }
 
@@ -684,15 +685,13 @@ section#contact {
 }
 
 #contact {
-    padding: 1rem !important;
-
-
     .modal-dialog {
         .modal-content {
             border-radius: 10px;
 
             .contact-img-header {
                 border-radius: 10px 10px 0 0;
+                background-image: url('../assets/img/contact-img-header.jpg');
             }
         }
     }

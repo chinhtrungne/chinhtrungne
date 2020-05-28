@@ -24,7 +24,7 @@ a:hover {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0 !important;
 }
 
 .page-section h2.section-heading {
@@ -204,10 +204,6 @@ header.masthead .masthead-heading {
 }
 
 /* products start */
-#products {
-  padding: 6rem 0 !important;
-}
-
 #products .products-item {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -449,43 +445,43 @@ header.masthead .masthead-heading {
 }
 
 #customers {
-  padding: 10rem 0;
+  padding: 10rem auto !important;
 }
 
-.customers-name {
+#customers .customers-name {
   border-radius: 10px;
 }
 
-.customers-name .customers-item {
+#customers .customers-name .customers-item {
   border: 1px solid #5555550f;
   border-collapse: collapse;
   text-align: center;
   padding: 1.5rem 2.5rem;
 }
 
-.customers-name .customers-item a img {
+#customers .customers-name .customers-item a img {
   -webkit-transition: 0.3s !important;
   transition: 0.3s !important;
 }
 
-.customers-name .customers-item a:hover img {
+#customers .customers-name .customers-item a:hover img {
   -webkit-transform: scale(1.1) !important;
           transform: scale(1.1) !important;
 }
 
-.customers-name .top-left {
+#customers .customers-name .top-left {
   border-radius: 10px 0 0 0;
 }
 
-.customers-name .top-right {
+#customers .customers-name .top-right {
   border-radius: 0 10px 0 0;
 }
 
-.customers-name .bottom-left {
+#customers .customers-name .bottom-left {
   border-radius: 0 0 0 10px;
 }
 
-.customers-name .bottom-right {
+#customers .customers-name .bottom-right {
   border-radius: 0 0 10px 0;
 }
 
@@ -607,16 +603,13 @@ section#contact .section-heading {
   color: #fff;
 }
 
-#contact {
-  padding: 1rem !important;
-}
-
 #contact .modal-dialog .modal-content {
   border-radius: 10px;
 }
 
 #contact .modal-dialog .modal-content .contact-img-header {
   border-radius: 10px 10px 0 0;
+  background-image: url("../assets/img/contact-img-header.jpg");
 }
 
 @media only screen and (max-width: 480px) {
