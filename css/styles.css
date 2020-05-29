@@ -470,19 +470,19 @@ header.masthead .masthead-heading {
 }
 
 #customers .customers-name .top-left {
-  border-radius: 10px 0 0 0;
+  border-top-left-radius: 10px;
 }
 
 #customers .customers-name .top-right {
-  border-radius: 0 10px 0 0;
+  border-top-right-radius: 10px;
 }
 
 #customers .customers-name .bottom-left {
-  border-radius: 0 0 0 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #customers .customers-name .bottom-right {
-  border-radius: 0 0 10px 0;
+  border-bottom-right-radius: 10px;
 }
 
 @media only screen and (max-width: 480px) {
