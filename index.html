@@ -286,6 +286,16 @@
                 <h2 class="section-heading text-uppercase">about</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
+            <div class="row" data-sal="zoom-in" data-sal-delay="50" data-sal-easing="ease-out-back">
+                <div class="col-lg-10 mx-auto text-center">
+                    <p class="large text-muted">Integer id rutrum tellus. Pellentesque consectetur, ex fermentum
+                        interdum pharetra, turpis felis dictum turpis, vitae laoreet purus ex nec turpis. Etiam dapibus
+                        lacinia dictum. Donec ut maximus urna. Nulla euismod nec enim convallis hendrerit. Aliquam elit
+                        magna, tempor et volutpat at, tincidunt vitae odio. Etiam leo ex, ornare a purus et, suscipit
+                        volutpat nunc. Curabitur malesuada nunc eu ultrices sagittis.
+                    </p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="about-member">
@@ -333,12 +343,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" data-sal="zoom-in" data-sal-delay="50" data-sal-easing="ease-out-back">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -382,17 +387,18 @@
                             <h3>Contact Us</h3>
 
                             <label for="" class="mb-1">Full Name</label>
-                            <input type="text" name="name" placeholder="Enter name" class="w-100 form-control" required>
+                            <input type="text" name="name" placeholder="Enter name" class="w-100 form-control" required
+                                autocomplete="name">
 
                             <label for="" class="mt-2 mb-1">Email</label>
                             <input type="email" name="email" placeholder="Enter email" class="w-100 form-control"
-                                required>
+                                required autocomplete="email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
 
                             <label for="" class="mt-2 mb-1">Phone Number</label>
                             <input type="text" name="tel" pattern="(\+84|0)\d{9,10}" placeholder="Enter phone number"
-                                class="w-100 form-control" required>
+                                class="w-100 form-control" required autocomplete="phone">
 
 
                             <label for="" class="mt-2 mb-1">Message</label>
