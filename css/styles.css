@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
 body {
   overflow-x: hidden;
   outline: none !important;
@@ -59,11 +60,11 @@ a:hover {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
   border-radius: 100%;
 }
@@ -99,7 +100,8 @@ a:hover {
   letter-spacing: 0.0625em;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #308843;
 }
 
@@ -113,31 +115,38 @@ a:hover {
     -webkit-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.5em;
     -webkit-transition: font-size 0.3s ease-in-out;
     transition: font-size 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand img {
     height: 2rem;
     -webkit-transition: height 0.3s ease-in-out;
     transition: height 0.3s ease-in-out;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
+
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
   }
+
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
+
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
@@ -174,12 +183,14 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 17rem;
   }
+
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
+
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
@@ -196,7 +207,7 @@ header.masthead .masthead-heading {
 
 #overview .overview-picture a:hover svg {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #overview .overview-card div {
@@ -206,7 +217,7 @@ header.masthead .masthead-heading {
 /* products start */
 #products .products-item {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius: 10px;
 }
 
@@ -231,11 +242,11 @@ header.masthead .masthead-heading {
   height: 100%;
   background: rgba(48, 136, 67, 0.3);
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   opacity: 0;
   -webkit-transition: opacity ease-in-out 0.25s;
   transition: opacity ease-in-out 0.25s;
@@ -325,6 +336,7 @@ header.masthead .masthead-heading {
   .products-modal .modal-content {
     width: 100%;
   }
+
   .products-modal .modal-content h2 {
     font-size: 2rem !important;
   }
@@ -349,22 +361,23 @@ header.masthead .masthead-heading {
   background-color: #e9ecef;
 }
 
-.timeline > li {
+.timeline>li {
   position: relative;
   min-height: 50px;
   margin-bottom: 50px;
 }
 
-.timeline > li:after, .timeline > li:before {
+.timeline>li:after,
+.timeline>li:before {
   display: table;
   content: " ";
 }
 
-.timeline > li:after {
+.timeline>li:after {
   clear: both;
 }
 
-.timeline > li .timeline-panel {
+.timeline>li .timeline-panel {
   position: relative;
   float: right;
   width: 100%;
@@ -372,21 +385,21 @@ header.masthead .masthead-heading {
   text-align: left;
 }
 
-.timeline > li .timeline-panel:before {
+.timeline>li .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
 
-.timeline > li .timeline-panel:after {
+.timeline>li .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
 
-.timeline > li .timeline-image {
+.timeline>li .timeline-image {
   position: absolute;
   z-index: 100;
   left: 0;
@@ -399,34 +412,34 @@ header.masthead .masthead-heading {
   background-color: #308843;
 }
 
-.timeline > li .timeline-image h4 {
+.timeline>li .timeline-image h4 {
   font-size: 10px;
   font-weight: 400 !important;
   line-height: 14px;
   margin-top: 12px;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline>li.timeline-inverted>.timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline>li.timeline-inverted>.timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline>li.timeline-inverted>.timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
 
-.timeline > li:last-child {
+.timeline>li:last-child {
   margin-bottom: 0;
 }
 
@@ -439,8 +452,8 @@ header.masthead .masthead-heading {
   text-transform: none;
 }
 
-.timeline .timeline-body > ul,
-.timeline .timeline-body > p {
+.timeline .timeline-body>ul,
+.timeline .timeline-body>p {
   margin-bottom: 0;
 }
 
@@ -466,7 +479,7 @@ header.masthead .masthead-heading {
 
 #customers .customers-name .customers-item a:hover img {
   -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
 }
 
 #customers .customers-name .top-left {
@@ -489,6 +502,7 @@ header.masthead .masthead-heading {
   .customers-name {
     margin: 0 !important;
   }
+
   .customers-name .customers-item {
     width: 50% !important;
   }
@@ -498,28 +512,33 @@ header.masthead .masthead-heading {
   .timeline:before {
     left: 50%;
   }
-  .timeline > li {
+
+  .timeline>li {
     min-height: 100px;
     margin-bottom: 100px;
   }
-  .timeline > li .timeline-panel {
+
+  .timeline>li .timeline-panel {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right;
   }
-  .timeline > li .timeline-image {
+
+  .timeline>li .timeline-image {
     left: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
   }
-  .timeline > li .timeline-image h4 {
+
+  .timeline>li .timeline-image h4 {
     font-size: 13px;
     line-height: 18px;
     margin-top: 16px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+
+  .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left;
@@ -527,43 +546,51 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 992px) {
-  .timeline > li {
+  .timeline>li {
     min-height: 150px;
   }
-  .timeline > li .timeline-panel {
+
+  .timeline>li .timeline-panel {
     padding: 0 20px 20px;
   }
-  .timeline > li .timeline-image {
+
+  .timeline>li .timeline-image {
     width: 150px;
     height: 150px;
     margin-left: -75px;
   }
-  .timeline > li .timeline-image h4 {
+
+  .timeline>li .timeline-image h4 {
     font-size: 18px;
     line-height: 26px;
     margin-top: 30px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+
+  .timeline>li.timeline-inverted>.timeline-panel {
     padding: 0 20px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  .timeline > li {
+  .timeline>li {
     min-height: 170px;
   }
-  .timeline > li .timeline-panel {
+
+  .timeline>li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
-  .timeline > li .timeline-image {
+
+  .timeline>li .timeline-image {
     width: 170px;
     height: 170px;
     margin-left: -85px;
   }
-  .timeline > li .timeline-image h4 {
+
+  .timeline>li .timeline-image h4 {
     margin-top: 40px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+
+  .timeline>li.timeline-inverted>.timeline-panel {
     padding: 0 100px 20px 20px;
   }
 }
@@ -623,4 +650,5 @@ section#contact .section-heading {
   text-align: center;
   font-size: 0.9rem;
 }
+
 /*# sourceMappingURL=styles.css.map */
