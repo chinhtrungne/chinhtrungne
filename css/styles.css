@@ -464,14 +464,14 @@ header.masthead .masthead-heading {
 }
 
 #customers .customers-name .customers-item a img {
-  width: 70% !important;
+  width: 50% !important;
   -webkit-transition: 0.3s !important;
   transition: 0.3s !important;
 }
 
 #customers .customers-name .customers-item a:hover img {
-  -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
+  -webkit-transform: scale(1.2) !important;
+          transform: scale(1.2) !important;
 }
 
 #customers .customers-name .top-left {
