@@ -460,6 +460,7 @@ header.masthead .masthead-heading {
 }
 
 #customers .customers-name .customers-item a img {
+  width: 70% !important;
   -webkit-transition: 0.3s !important;
   transition: 0.3s !important;
 }
