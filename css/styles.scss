@@ -244,6 +244,10 @@ header.masthead {
     .overview-card {
         div {
             background-color: #28304e;
+
+            .overview-icon {
+                font-size: 55px !important;
+            }
         }
     }
 }

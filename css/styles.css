@@ -207,6 +207,10 @@ header.masthead .masthead-heading {
   background-color: #28304e;
 }
 
+#overview .overview-card div .overview-icon {
+  font-size: 55px !important;
+}
+
 /* products start */
 #products .products-item {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
