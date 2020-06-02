@@ -189,6 +189,10 @@ header.masthead .masthead-heading {
 }
 
 /* header end */
+#overview .whyChoose {
+  font-size: 20px !important;
+}
+
 #overview .overview-picture a svg {
   -webkit-transition: 0.3s;
   transition: 0.3s;
