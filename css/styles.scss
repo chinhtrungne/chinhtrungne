@@ -127,8 +127,8 @@ a {
 
 @media (min-width: 992px) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.7rem;
+        padding-bottom: 1rem;
         border: none;
         background-color: transparent;
         transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
@@ -144,8 +144,8 @@ a {
         }
 
         &.navbar-shrink {
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+            padding-top: 0.7rem;
+            padding-bottom: 0.7rem;
             background-color: #212529;
 
             .navbar-brand {
@@ -251,9 +251,6 @@ header.masthead {
         }
     }
 }
-
-
-
 // overview end
 
 /* products start */
